@@ -6,10 +6,10 @@ import decimal
 
 import fractions
 
-INTVAL = decimal.Decimal('1')
+INTVAL = 1
 
-FLOATVAL = decimal.Decimal('0.1')
+FLOATVAL = decimal.Decimal(0.1)
 
-DECVAL = fractions.Fraction('1/10')
+DECVAL = fractions.Fraction('0.1')
 
 FRACVAL = fractions.Fraction(1, 10)
